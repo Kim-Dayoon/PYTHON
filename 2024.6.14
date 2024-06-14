@@ -1,0 +1,47 @@
+###a=1
+###print(a)
+###a=2
+###print(a)
+###a=123
+###b="Hello World"
+###c=True
+###print(b,type(b))
+###print(c,type(c))
+###print("%d은 정수이다."%7)
+###number=3
+###print("%d는 정수이다."%number)
+###m=12
+###d=7
+###print("오늘은 %d월 %d일이다."%(m,d))
+###pi=3.42134234
+###print("%.2f"% pi)
+###print("%-10s"%"hello")
+###print("%10.2f"%3.141592653)
+###a=10
+###b=2
+###print("%d%d%d" %(a+b,a-b,a*b))
+###print(7/2,7//2,7%2)
+###a=(100+96+80)//3
+###print("%d"%a)
+
+name=input("이름: ")
+age=int(input("나이:"))
+high=float(input("키:"))
+sight=float(input("시력:"))
+print("==자기 이름 소개하기 ==")
+print("이름:%s"% name)
+print("나이:%d"% age)
+print("키:%.1f"% high)
+print("시력:%.1f"%sight)
+
+a=int(input())
+b=int(input())
+print("제 친구의 이름은 짱구이고, 나이는 5살 이에요" %(a,b,a%b))
+print("%d**%d=%d"%(a,b,a**b))
+##a=int(input("a정수 입력:"))
+##b=int(input("b정수 입력:"))
+##c=int(input("c정수 입력:"))
+##print("세 정수의 평균은 %0.2f입니다."%((a+b+c)/3))
+##      
+
+      
