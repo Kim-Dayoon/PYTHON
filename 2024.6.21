@@ -1,0 +1,86 @@
+##L=int(input("L 판매 개수  :"))
+##M=int(input("M 판매 개수  :"))
+##S=int(input("S 판매 개수 : "))
+### sum=총 매출 저장 변수
+##sum=2500*L
+##sum=sum+1000*M
+##sum=sum+500*S
+##
+####print("오늘의  총 매출은 %d입니다."%sum)
+##import turtle
+##t=turtle.Turtle()
+##t.setx(100)
+##t.sety(100)
+##t.setx(0)
+##t.sety(0)
+##
+##
+##t.clear()
+##
+##t.goto(100,0)
+##t.goto(100,100)
+##t.goto(0,100)
+##t.goto(0,0)
+##
+##t.clear()
+##
+##t.setheading(120)
+##t.forward(100)
+##t.setheading(240)
+##t.forward(100)
+##t.home()
+##
+##turtle. done
+
+##import turtle
+##t=turtle.Turtle()
+##t.goto(100,-60)
+##t.goto(100,60)
+##t.goto(-100,-60)
+##t.goto(-100,60)
+##t.home()
+##turtle.done()
+
+##import turtle
+##t=turtle.Turtle()
+##t.forward(100)
+##t.left(90)
+##t.forward(100)
+##t.left(90)
+##t.forward(100)
+##t.left(90)
+##t.forward(100)
+##
+##t.right(90)
+##t.forward(100)
+##t.right(60)
+##t.backward(100)
+##t.right(60)
+##t.forward(100)
+##
+##turtle.done()
+
+import turtle
+
+##t=turtle.Turtle()
+##t.shape("turtle")
+##r=50
+##t.circle(r)
+##t.penup()
+##t.goto(100,0)
+##t.pendown()
+##r=r+30
+##t.circle(r)
+##t.penup()
+##t.goto(200,0)
+##t.pendown()
+##r=r+30
+##t.circle(r)
+##turtle.done()
+##n=int(input('inch: '))
+##print("%.2fcm"%(n*2.54))
+n=int(input())
+m=int(input())
+print=("%d-%d=%d"%(n,m,n-m))
+
+ 
