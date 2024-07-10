@@ -1,0 +1,24 @@
+##num=input('주민번호:     ')
+##a=num[0:6]
+##b=num[7]
+##print('생년월일:%s'%a)
+##print('성별:%s'%b)
+##a='간장공장공장장'
+##print(a.count('공장'))
+##print(a.find('공장'))
+##a=['fun','fun','python']
+##s=a[0] + ' ' + a[1] + ' ' + a[2]
+##print(s)             
+##num=input('주민번호:      ')
+##a=num[2:4]
+##b=num[4:6]
+##print('생일:%s월 %s일 '%(a,b))
+##a=[]
+##num=input('1: ')
+##a.append(num)
+##num=input('2: ')
+##a.append(num)
+##num=input('3: ')
+##a.append(num)
+##
+##print(a)
