@@ -108,8 +108,11 @@
 ##t.goto(t3)
 ##turtle.done()
 d={'plus':['더하기','장점'],'minus':['빼기','적자'],'multiply':['곱하다','다양하게'],'division':['나누기','분열']}
+
+d['square'] = '제곱'
 n=input('단어: ')
-print(d.keys())
+del d[n]
+print(d.items())
 
 
 
