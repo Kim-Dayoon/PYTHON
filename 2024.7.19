@@ -1,0 +1,72 @@
+score=80
+##if score>=60 and score<=100:
+##     print("Pass")
+##else:
+##     print("Fail")
+##score=int(input('점수를 입력하세요.'))
+##if score>=90:
+##     print('A')
+##elif score>=60:
+##     pirnt('B')
+##else:
+##     print('c')
+##x=int(input('수를 입력하세요.'))
+##if x%2==0:
+##     print('Even')
+##else:
+##     print('Odd')
+##y=int(input('year: '))
+##if( y%4==0 and y%100!=0)or y%400:
+##      print('leap year')
+##else:
+##     print('common year')
+##case=['Homework','Eating','Sleeping']
+##if 'Homework' in case:
+##     print("I have to do homework.")
+##else:
+##     print("It's break time.")
+##x=input('성별?')
+##if x=='M':
+##     print('Men')
+##elif x== 'W':
+##     print('Woman')
+##else :
+##     print('What?')
+##x=int(input('몇 월?'))
+##if x>= 1 and x<=6:
+##     print('first half')
+##elif x>=7 and x<=12:
+##     print('second half')
+##import random
+##com=random.randint(1,2)
+##user=int(input('odd:1,even:2\n'))
+##if com==1:
+##     com='odd'
+##else:
+##     com='even'
+##if user==1:
+##     user='odd'
+##else:
+##     user='even'
+##print('Com(%s):User(%s)'%(com,user))
+##if com== user:
+##         print('Correct')
+##else:
+##     print('Incorrect')
+import random
+com=random.randint(1,3)
+user=int(input('1:가위,2:바위,3:보\n')))
+if com==1:
+     com="가위"
+elif com==2:
+     com="바위"     
+elif com==3:
+     com="보"     
+if user==1:
+     user="가위"
+elif user==2:
+     user="바위"     
+elif user==3:
+     user="보"
+print('Com(%s):User(%s)'%(com,user))
+
