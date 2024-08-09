@@ -1,0 +1,75 @@
+##i=1
+##while i<=10:
+##     print(i,end =' ')
+##     i+=1
+##sum=0
+##i=1
+##while i<=100:
+##     sum+=i
+##     i+=1
+##print(sum)
+##i=0
+##while i<10:
+##     i+=1
+##     if i%2==0:
+##          continue
+##     print(i,end=' ')
+##while True:
+##     aus=input("Shall we chose?(y/n)")
+##     if aus=='y':
+##          print("The end")
+##          break
+##ans=' '
+##while ans!="Yes":
+##     ans=input("Are you ready?")
+##print("going out")
+##stamp=0
+##while stamp<10:
+##     stamp+=1
+##     print("스탬프 %d개 적립"%stamp)
+##     if stamp==10:
+##          print("무료 음료 쿠폰 1개 증정")
+##i=1
+##while i<=100:
+##     print(i,end=' ')
+##     i+=1
+##i=1
+##ans=int(input())
+##while i <=ans:
+##     sum+=i
+##     i+=1
+##print("%d"%합)
+##n=1
+##while n<=20:
+##     if  n%10==3 or n%10==6 or n%10==9:
+##          print('X',end=' ')
+##     else:
+##          print(n,end=' ')
+##     n+=1     
+##import sys
+##import pygame
+##from pygame.locals import*
+##
+##pygame.init()
+##
+##screen =pygame.display.set_mode((400,300))
+##
+##pygame.display.set_caption("Tick Tock Timer")
+##
+##CLOCK=pygame.time.Clock()
+##
+##sysfont=pygame.font.SysFont(None,36)
+##
+##timer=0
+##
+##while True:
+##     for event in pygame.event.get():
+##          if event.type==QUIT:
+##               pygame.quit()
+##               sys.exit()
+##     timer+=1
+##     screen.fill((255,255,255))
+##     cnt_txt=sysfont.render("Timer:%d"%timer,True,(0,0,0))
+##     screen.blit(cnt_txt,(140,140))
+##     pygame.display.update()
+##     CLOCK.tick(1)             
