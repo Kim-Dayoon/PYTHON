@@ -1,0 +1,15 @@
+##sum=0
+##for i in range(5):
+##     a= int(input("키를 입력하시오."))
+##     sum+=a
+##print("sum:%d"%sum)
+##print("avg:%.2f"%(sum/5))
+
+##print("수를 10개 입력하시오.")
+##a=0
+##for i in range(10):
+##    n=int(input())
+##    if n>a:
+##        a=n
+##
+##print(a)
