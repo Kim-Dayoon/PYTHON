@@ -1,0 +1,168 @@
+##sum=0
+##n=int(input("정수를 입력하시오."))
+##for i in range(1,n):
+##     if i%3==0:
+##          sum=sum+i
+##print(sum)
+##sum=0
+##n=int(input("양의 정수를 입력하시오."))
+##while (n>0):
+##     sum=sum+n%10
+##     n//=10
+##print(sum)
+##import sys
+##import pygame
+##from pygame.locals import*
+##
+##pygame.init()
+##SCREEN=pygame.display.set_mode((300,300))
+##CLOCK=pygame.time.Clock()
+##BLACK=(   0 ,   0 ,  0 )
+##WHITE=(255,255,255)
+##
+##sysfont=pygame.font.SysFont(None,36)
+##txt=sysfont.render("",True,BLACK)
+##
+##while True:
+##     SCREEN.fill(WHITE)
+##     for event in pygame.event.get():
+##          if event.type==QUIT:
+##               pygame.quit()
+##               sys.exit()
+##          if event.type==KEYDOWN:
+##               if event.key==K_UP:
+##                    txt=sysfont.render("UP",True,BLACK)
+##         
+##               if event.key==K_DOWN:
+##                    txt=sysfont.render("DOWN",True,BLACK)
+##               if event.key==K_LEFT:
+##                    txt=sysfont.render("LEFT",True,BLACK)
+##               if event.key==K_RIGHT:
+##                    txt=sysfont.render("RIGHT",True,BLACK)
+##               if event.key==K_ESCAPE:
+##                    pygame.quit()
+##                    sys.exit()
+##     SCREEN.blit(txt,(100,120))
+##     pygame.display.update()
+##     CLOCK.tick(60)
+
+
+     
+##import sys
+##import pygame
+##from pygame.locals import*
+##
+##pygame.init()
+##SCREEN=pygame.display.set_mode((600,600))
+##CLOCK=pygame.time.Clock()
+##BLACK=(   0 ,   0 ,  0 )
+##WHITE=(255,255,255)
+##
+##sysfont=pygame.font.SysFont(None,36)
+##txt=sysfont.render("",True,(0,0,0))
+##coord=sysfont.render("",True,(0,0,0))
+##x,y=0,0
+##while True:
+##     SCREEN.fill((255,255,255))
+##     for event in pygame.event.get():
+##          if event.type==QUIT:
+##               pygame.quit()
+##               sys.exit()
+##          if event.type==MOUSEBUTTONDOWN:
+##               x,y=event.pos[0],event.pos[1]
+##               coord=sysfont.render("(%d,%d)"%(x,y),True,(0,0,0))
+##                  
+##         
+##               if event.button==1:
+##                    txt=sysfont.render("1",True,(0,0,0))
+##               if event.button==2:
+##                    txt=sysfont.render("2",True,BLACK)
+##               if event.button==3:
+##                    txt=sysfont.render("3",True,BLACK)
+##               if event.button==4:
+##                    txt=sysfont.render("4",True,BLACK)
+##               if event.button==5:
+##                    txt=sysfont.render("5",True,BLACK)
+##               
+##     SCREEN.blit(txt,(285,220))
+##     SCREEN.blit(coord,(x,y))
+##     pygame.display.update()
+##     
+##     CLOCK.tick(60)
+
+##import sys
+##import pygame
+##from pygame.locals import*
+##
+##pygame.init()
+##SCREEN=pygame.display.set_mode((300,300))
+##CLOCK=pygame.time.Clock()
+##
+##
+##sysfont=pygame.font.SysFont(None,36)
+##txt=sysfont.render("",True,(0,0,0))
+##
+##n=0
+##
+##while True:
+##     SCREEN.fill((255,255,255))
+##     for event in pygame.event.get():
+##          if event.type==QUIT:
+##               pygame.quit()
+##               sys.exit()
+##          if event.type==MOUSEBUTTONDOWN:
+##              if event.button==1:
+##                   n=0
+##          if event.type==KEYDOWN:
+##               if event.key==K_UP:
+##                
+##                    n=n+10
+##               if event.key==K_DOWN:
+##                    n-=10
+##               if event.key==K_LEFT:
+##                    n*=10
+##                    
+##               if event.key==K_RIGHT:
+##                    n//=10
+##               if event.key==K_ESCAPE:
+##                    pygame.quit()
+##                    sys.exit()
+##     txt=sysfont.render('%d'%n,True,(0,0,0))
+##     SCREEN.blit(txt,(100,120))
+##     pygame.display.update()
+##     CLOCK.tick(60)
+
+import sys
+import pygame
+from pygame.locals import*
+from random import*
+
+pygame.init()
+
+screen =pygame.display.set_mode((400,300))
+
+pygame.display.set_caption("Tick Tock Timer")
+
+CLOCK=pygame.time.Clock()
+
+sysfont=pygame.font.SysFont(None,36)
+
+timer=0
+color=["BLACK","RED","GREEN","BLUE"]
+BLACK=(0,0,0)
+RED=(255,0,0)
+GREEN=(0,255,0)
+BLUE=(0,0,255)
+
+while True:
+     for event in pygame.event.get():
+          if event.type==QUIT:
+               pygame.quit()
+               sys.exit()
+     timer+=1
+     screen.fill((255,255,255))
+     
+     cnt_txt=sysfont.render("HI",True,color[randint(0,3)])
+     screen.blit(cnt_txt,(randint(0 ,400 ),randint( 0, 300)))
+     pygame.display.update()
+     CLOCK.tick(1)             
