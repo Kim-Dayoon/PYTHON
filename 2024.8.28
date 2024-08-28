@@ -1,0 +1,38 @@
+##i=1
+##while True:
+##    print(i,end=' ')
+##    i=i+1
+##    if i>10:
+##        break
+##   
+
+
+##n=int(input("정수를 입력하세요."))
+##i=1
+##while True:
+##    print(i, end=' ')
+##    i = i + 1
+##    if i>n:
+##        break
+
+      
+##i=1
+##while True:
+##    if i%2==0:
+##        print(i, end=' ')
+##
+##    i = i + 1
+##    if i>100:
+##        break
+
+        
+##n=int(input("정수를 입력하세요."))
+##for i in range(n,51):
+##    print(i)
+
+
+##sum=1
+##n=int(input("정수를 입력하시오"))
+##for i in range(1,n+1):
+##    if i%3==0:
+##        print(i)
