@@ -1,0 +1,105 @@
+##def add(i,n):
+##    x=i+n
+##    return x
+##i=int(input("정수 입력"))
+##n=int(input("정수 입력"))
+##print(add(i,n))
+##def add(x,y):
+##    s=x+y
+##    return s
+##result=add(10,20)+add(20,30)
+##print(result)
+##def get_max(x,y):
+##    if x>y:
+##            return x
+##    else:
+##     
+##            return y
+##x=int(input())
+##y=int(input())
+##n=get_max(x,y)
+##print(n)
+##def plus(n):
+##    if n>0:
+##        return True
+##    else:
+##        return False
+##n=int(input())
+##print(plus(n))
+##def get_sum(n):
+##    s=0
+##    for i in range(1,n+1):
+##        s+=i
+##    return s
+##n=int(input())
+##print("1부터 %d까지의 합은 %d입니다."%(n,get_sum(n)))
+##def get_sum(n,m):
+##    sum=0
+##    for i in range(n,m+1):
+##        sum+=i
+##    return sum
+##
+##n=int(input())
+##m=int(input())
+##print("%d부터 %d까지의 합은 %d입니다."%(n,m,get_sum(n,m)))
+##def get_area(a,b):
+##    area=a*b
+##    return area
+##
+##a=int(input("가로"))
+##b=int(input("세로"))
+##print(get_area (a,b))
+##def get_area(r):
+##    return 3.14*r*r
+##
+##a=int(input())
+##print(get_area(a))
+##def get_number(n):
+##    if n%2==0:
+##        return "even"
+##    else:
+##        return "odd"
+##n=int(input())
+##print(get_number(n))
+##def square(a,b):
+##    return a**b
+##
+##n=int(input())
+##m=int(input())
+##print(square(n,m))
+##def Login (id,passward):
+##    
+##    if id=="cube" and "passward"==1234:
+##        return 1
+##    if id=="cube":
+##        return 2
+##    if passward==1234:
+##        
+##        return 3
+##    else:
+##        return 4
+##def say(result):
+##    if result==1:
+##        print("Login Success")
+##    if result==2:
+##        print("Please check your passward")
+##    if result==3:
+##        print("Please check your id")
+##    if result==4:
+##        print("Please check your id and passward")
+##id=input()
+##passward=int(input())
+##result=Login(id,passward)
+##say(result)
+def is_prime(p):
+    check=0
+    for i in range(2,p):
+          check=0
+          if p%i==0:
+              check=1
+              break
+    if check==0:
+        print("%d"%p)
+
+for i in range(2,101):
+    is_prime(i)
