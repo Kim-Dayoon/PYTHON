@@ -1,0 +1,30 @@
+##def get_sum(n):
+##    s=0
+##    for i in range(n):
+##        s+=int(input())
+##    return s
+##n=int(input("Enter integer n:  "))
+##
+##print("sum:", get_sum(n))
+##def rect(w,h):
+##    return w*h
+##def tri(w,h):
+##    return w*h/2
+##def circle(r):
+##    return r**2*3.14
+##print("Choose a shape: ")
+##print("1.Restangle","3.Circle",sep='/n')
+##n=int(input())
+##if n==1:
+##    w=int(input("width: "))
+##    h=int(input("geight: "))
+##    area=rect(w,h)
+##if n==2:
+##    w=int(input("width: "))
+##    h=int(input("geight: "))
+##    area=tri(w,h)
+##if n==3:
+##    w=int(input("width: "))
+##    h=int(input("geight: "))
+##    area=circle(r)
+##print(area)
