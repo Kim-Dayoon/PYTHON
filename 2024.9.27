@@ -1,0 +1,53 @@
+##lbl.pack()
+##lbl2.pack()
+##win.mainloop()
+
+##from tkinter import*
+##win=Tk()
+##bnt=Button(win,text="Button",bg="green",fg="red")
+##bnt.pack()
+##win.mainloop()
+
+##from tkinter import*
+##win=Tk()
+##def click():
+##    if lbl['text']=="hello":
+##         lbl['text']="python"
+##         lbl['bg']="green"
+##    else:
+##        lbl['text']="hello"
+##        lbl['bg']="orange"
+##
+##lbl = Label(win,text="hello",fg="white",bg="orange")
+##btn=Button(win,text="button",fg="black",bg="white",command=click)
+##lbl.pack()
+##btn.pack()
+##
+##win.mainloop()
+
+##from tkinter import*
+##win=Tk()
+##def message(event):
+##    lbl['text']=entry.get()
+##entry=Entry(win)
+##entry.bind("<Return>",message)
+##entry.pack()
+##lbl=Label(win,text="")
+##lbl.pack()
+##win.mainloop()
+
+##from tkinter import*
+##win=Tk()
+##label1=Label(win,width=10,height=5,bg="red")
+##label2=Label(win,width=10,height=5,bg="orange")
+##label3=Label(win,width=10,height=5,bg="yellow")
+##label4=Label(win,width=10,height=5,bg="green")
+##label5=Label(win,width=10,height=5,bg="blue")
+##label6=Label(win,width=10,height=5,bg="black")
+##label1.grid(row=0,column=0)
+##label2.grid(row=0,column=1)
+##label3.grid(row=0,column=2)
+##label4.grid(row=1,column=0)
+##label5.grid(row=1,column=1)
+##label6.grid(row=1,column=2)
+##win.mainloop()
