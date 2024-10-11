@@ -1,0 +1,22 @@
+####index=int(input('index:'))
+####f=open("alphbet.txt","r")
+####f.seek(index)
+####data=f.readline()
+####print(data)
+####f.close()
+####f=open("fruit.txt","r")
+####data=f.readlines()
+####for i in data:
+####    if len(i)>10:
+####        print(i)
+####f.close
+##f=open("anna.txt","r")
+##data=f.readline()
+##data=data.split()
+##for i in data:
+##    if 'b' in i:
+##        print(i)
+##    
+##
+##f.close()
+##    
