@@ -1,0 +1,8 @@
+class TV:
+    def __init__(power,channel,volume):
+        self.power=power
+        self.channel=channel
+        self.volume=volume
+        self.Tv=screen
+screen.info()
+    def 
